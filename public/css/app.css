@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0 15px;
+  line-height: 107px;
+}
+
+header ul li.active {
+  border-bottom: 5px solid #0282F9;
+}
+
+header ul li a {
+  color: #464646;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color linear 0.2s;
+}
+
+header ul li a:hover {
+  color: #0282F9;
+}
+
+footer {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-position: center;
+  background-size: cover;
+  padding-top: 2rem;
+  position: relative;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 350px;
+}
+
+footer .container .footer-left {
+  display: flex;
+  gap: 0 3rem;
+}
+
+footer .container .footer-left ul {
+  list-style: none;
+}
+
+footer .container .footer-left ul .list-title {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+footer .container .footer-left ul li {
+  margin: 10px 0;
+}
+
+footer .container .footer-left ul li a {
+  color: #727171;
+  text-decoration: none;
+  font-size: small;
+}
+
+footer .container .footer-left ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .container .footer-right img {
+  display: block;
+}
+
+footer .cta {
+  background-color: #303030;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  z-index: 1;
+}
+
+footer .cta #sign-up-btn {
+  background-color: #303030;
+  padding: 0.7rem;
+  border: 2px solid #0282F9;
+  color: #fff;
+  cursor: pointer;
+  transition: all linear 0.5s;
+}
+
+footer .cta #sign-up-btn:hover {
+  background-color: #0282F9;
+  color: #fff;
+}
+
+footer .cta .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .cta .social .follow-us {
+  color: #0282F9;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+footer .cta .cta-list {
+  list-style: none;
+}
+
+footer .cta .cta-list li {
+  display: inline-block;
+}
+
+footer .cta .cta-list li a {
+  margin: 0 10px;
+}
+
+main {
+  background-color: #1C1C1C;
+}
+

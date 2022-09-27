@@ -1,0 +1,30 @@
+@import '../mixins.scss';
+@import '../variables.scss';
+
+header {
+    @include flex('vertical');
+    justify-content: space-between;
+
+    ul {
+        li {
+            display: inline-block;
+            margin: 0 15px;
+            line-height: 107px;
+
+            &.active {
+                border-bottom: 5px solid $brand_color;
+            }
+
+                a {
+                    color: #464646;
+                    text-decoration: none;
+                    font-weight: bold;
+                    transition: color linear .2s;
+
+                &:hover {
+                    color: $brand_color;
+                }
+            }
+        }
+    }
+}

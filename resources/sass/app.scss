@@ -1,0 +1,49 @@
+@import 'generals.scss';
+@import 'partials/header';
+@import 'partials/footer';
+//**PRODUCTS**
+
+main {
+    background-color: $content_sect_color;
+
+    #jumbotron {
+        height: 450px;
+        background-image: url('../assets/img/jumbotron.jpg');
+        position: relative;
+
+        .jumbo-text {
+            padding: .5rem 3rem;
+            background-color: $brand_color;
+            border: none;
+            color: #fff;
+            font-weight: bold;
+            width: 240px;
+            height: 50px;
+            @include flex('both');
+            position: absolute;
+            bottom: -25px;
+            left: 270px;
+        }
+    }
+
+    #main-content {
+        padding: 3rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        .load-more-btn {
+            width: 100%;
+            @include flex('both');
+
+            a {
+                padding: .5rem 3rem;
+                background-color: $brand_color;
+                border: none;
+                color: #fff;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+    }
+}
