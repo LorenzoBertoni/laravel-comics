@@ -9,7 +9,7 @@
 main {
     background-color: $content_sect_color;
 
-    #home-page {
+    #home-page, #latest-news {
         padding: 5rem 0;
         h1 {
             font-size: 80px;
@@ -17,12 +17,13 @@ main {
             color: $brand_color;
         }
 
-        p {
+        p, li {
             color: $brand_color;
             font-style: italic;
             font-size: 15px;
             font-weight: 400;
             text-align: center;
+            line-height: 20px;
         }
     }
 

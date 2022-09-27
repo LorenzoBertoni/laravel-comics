@@ -23,3 +23,7 @@ Route::get('/products', function () {
 
     return view('products', ['comics' => $comicsList]);
 })->name('products');
+
+Route::get('/latest-news', function () {
+    return view('latestNews');
+})->name('latest-news');

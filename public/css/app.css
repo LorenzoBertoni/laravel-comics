@@ -195,22 +195,28 @@ main {
   background-color: #1C1C1C;
 }
 
-main #home-page {
+main #home-page,
+main #latest-news {
   padding: 5rem 0;
 }
 
-main #home-page h1 {
+main #home-page h1,
+main #latest-news h1 {
   font-size: 80px;
   text-align: center;
   color: #0282F9;
 }
 
-main #home-page p {
+main #home-page p,
+main #home-page li,
+main #latest-news p,
+main #latest-news li {
   color: #0282F9;
   font-style: italic;
   font-size: 15px;
   font-weight: 400;
   text-align: center;
+  line-height: 20px;
 }
 
 main #main-content {

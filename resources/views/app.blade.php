@@ -2,7 +2,6 @@
 
 @section('page-title', 'Home Page')
 
-
 @section('content')
     <section id="home-page">
         <h1>Home Page</h1>

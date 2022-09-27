@@ -11,7 +11,7 @@
             <a href="{{route('products')}}">Prodotti</a>
         </li>
         <li>
-            <a href="#">Ultime notizie</a>
+            <a href="{{route('latest-news')}}">Ultime notizie</a>
         </li>
     </ul>
 </header>
