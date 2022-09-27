@@ -40,6 +40,62 @@ header ul li a:hover {
   color: #0282F9;
 }
 
+#jumbotron {
+  height: 450px;
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  position: relative;
+}
+
+#jumbotron .jumbo-text {
+  padding: 0.5rem 3rem;
+  background-color: #0282F9;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  width: 240px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -25px;
+  left: 270px;
+}
+
+#products {
+  padding: 3rem 0;
+  background-color: #0282F9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#products ul {
+  list-style: none;
+  display: flex;
+}
+
+#products ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+#products ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#products ul li a:hover {
+  text-decoration: underline;
+}
+
+#products ul li img {
+  width: 50px;
+  margin-right: 10px;
+}
+
 footer {
   background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
   background-position: center;
@@ -137,5 +193,78 @@ footer .cta .cta-list li a {
 
 main {
   background-color: #1C1C1C;
+}
+
+main #home-page {
+  padding: 5rem 0;
+}
+
+main #home-page h1 {
+  font-size: 80px;
+  text-align: center;
+  color: #0282F9;
+}
+
+main #home-page p {
+  color: #0282F9;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+
+main #main-content {
+  padding: 3rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+main #main-content .load-more-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main #main-content .load-more-btn a {
+  padding: 0.5rem 3rem;
+  background-color: #0282F9;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+main .comic {
+  flex-basis: calc(16.6666666667% - 10px);
+}
+
+main .comic .img-wrapper {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  transition: transform 0.5s linear;
+}
+
+main .comic .img-wrapper:hover {
+  transform: scale(1.1);
+}
+
+main .comic .img-wrapper img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+main .comic h4 {
+  color: #fff;
+  margin-top: 1rem;
+  font-weight: 300;
+  font-size: 0.8rem;
+  width: 70%;
 }
 

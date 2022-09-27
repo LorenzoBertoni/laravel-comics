@@ -19,9 +19,7 @@ Route::get('/', function () {
 
 Route::get('/products', function () {
 
-    $comicsList = config('comics.php');
-
-    var_dump($comicsList);
+    $comicsList = config('comics');
 
     return view('products', ['comics' => $comicsList]);
 })->name('products');
