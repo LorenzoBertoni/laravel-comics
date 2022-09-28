@@ -42,7 +42,7 @@ header ul li a:hover {
 
 #jumbotron {
   height: 450px;
-  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-image: url("/images/jumbotron.jpg");
   position: relative;
 }
 
@@ -97,7 +97,7 @@ header ul li a:hover {
 }
 
 footer {
-  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-image: url("/images/footer-bg.jpg");
   background-position: center;
   background-size: cover;
   padding-top: 2rem;

@@ -2,23 +2,23 @@
     <ul>
         <li>
             <img src="{{asset('images/buy-comics-digital-comics.png')}}" alt="">
-            <a href="">Digital Comics</a>
+            <a href="#">Digital Comics</a>
         </li>
         <li>
             <img src="{{asset('images/buy-comics-merchandise.png')}}" alt="">
-            <a href="">DC merchandise</a>
+            <a href="#">DC merchandise</a>
         </li>
         <li>
             <img src="{{asset('images/buy-comics-subscriptions.png')}}" alt="">
-            <a href="">Subscription</a>
+            <a href="#">Subscription</a>
         </li>
         <li>
             <img src="{{asset('images/buy-comics-shop-locator.png')}}" alt="">
-            <a href="">Comic shop locator</a>
+            <a href="#">Comic shop locator</a>
         </li>
         <li>
             <img src="{{asset('images/buy-dc-power-visa.svg')}}" alt="">
-            <a href="">DC power visa</a>
+            <a href="#">DC power visa</a>
         </li>
     </ul>
 </section>
@@ -90,7 +90,7 @@
             <ul class="cta-list">
                 <li >
                     <a >
-                        <img src="">
+                        <img src=""> 
                     </a>
                 </li>
             </ul>
